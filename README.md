@@ -21,3 +21,15 @@
 
 ## Completion Status
 - Usable (basic): core flow is implemented (context menu, storage handoff, Gemini tab, text insertion), but there are no settings, UI controls, or robust error handling.
+
+## Program Summary
+- Chrome extension that adds a selection-only context menu to send highlighted text to Gemini.
+- Stores the text in `chrome.storage.local`, opens `https://gemini.google.com/app`, and injects the text into Gemini's prompt field with retry logic.
+
+## How to Use
+- Not verified: Load the unpacked extension in Chrome (MV3).
+- Select text on any page, right-click, and choose the "Geminiに送る" menu item.
+- A Gemini tab opens and the selected text is inserted into the prompt box.
+
+## Completion Status
+- Usable (basic): core workflow (context menu, storage, Gemini tab, text insertion) is present, but lacks settings, UI controls, and robust error handling.
